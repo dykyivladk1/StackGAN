@@ -1,0 +1,8 @@
+model_params: 
+  gf_dim: "128"
+  z_dim: "100"
+  text_dim: "512"
+  df_dim: "64"
+  condition_dim: "256"
+  r_num: "1"
+

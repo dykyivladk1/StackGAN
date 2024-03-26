@@ -1,0 +1,22 @@
+model_params: 
+  gf_dim: "128"
+  z_dim: "100"
+  text_dim: "512"
+  df_dim: "64"
+  condition_dim: "256"
+
+images_params:
+  image_size: "64"
+
+training_params:
+  g_lr: "0.0002"
+  d_lr: "0.0002"
+  batch_size: "128"
+  kl_coeff: "2.0"
+  snapshot_interval: "50"
+  model_dir: "model_weights"
+  image_dir: "output_images"
+  max_epoch: "600"
+  lr_decay_step: "20"
+  r_num: "1"
+
