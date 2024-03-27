@@ -53,4 +53,4 @@ Next step, is to download processed embeddings text descriptions, i used CLIP mo
     python sample.py --yaml_path <yaml path> --prompt <prompt>
     ```
 
-5. **Thanks for your attention.**
+5. **Don't forget to create "model_weights", "data", "gen_samples", "output_images" directories!!!**
